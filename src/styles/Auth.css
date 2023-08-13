@@ -1,0 +1,51 @@
+/* Auth section */
+.auth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    text-align: center; /* Center align the text */
+  }
+  
+  .auth p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .auth-button {
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    outline: none;
+  }
+  
+  .auth-button:hover {
+    background-color: #3367d6;
+  }
+  
+  .auth-button:focus {
+    transform: scale(1.05);
+  }
+  
+  /* Media query for responsiveness */
+  @media screen and (max-width: 600px) {
+    .auth p {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+  
+    .auth-button {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  }
+  

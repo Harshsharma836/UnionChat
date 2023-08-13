@@ -1,0 +1,95 @@
+/* Sign out button */
+.sign-out {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.sign-out-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px; /* Reduced padding */
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px; /* Smaller font size */
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.sign-out-button:hover {
+  background-color: #d32f2f;
+}
+
+.sign-out-button:focus {
+  outline: none;
+  transform: scale(1.05);
+}
+
+/* Rest of your existing CSS */
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-header {
+  text-align: center;
+  background-color: #3b5998;
+  color: white;
+  width: 100%;
+}
+
+.app-container {
+  margin-top: 50px;
+}
+
+.room {
+  display: flex;
+  flex-direction: column;
+}
+
+.room label {
+  text-align: center;
+  font-size: 20px; /* Reduced font size */
+  margin-bottom: 20px;
+}
+
+.room input {
+  width: 200px;
+  height: 30px;
+  border: 2px solid #3b5998;
+  border-radius: 6px;
+  padding-left: 5px;
+  font-size: 16px; /* Reduced font size */
+  text-align: center;
+  margin: 5px;
+}
+
+.room button {
+  width: 210px;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  padding-left: 5px;
+  font-size: 16px; /* Reduced font size */
+  text-align: center;
+  margin: 5px;
+  background-color: #3b5998;
+  color: white;
+  cursor: pointer;
+}
+
+.sign-out {
+  margin-top: 50px;
+}
+
+/* Rest of your existing CSS */

@@ -1,0 +1,100 @@
+/* Message container */
+.message {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+/* Align sender name, text, and date */
+.message-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-grow: 1;
+}
+
+/* Sender name styling */
+.user {
+  font-size: 10px; /* Smaller sender name */
+  font-weight: bold;
+  color: #333;
+}
+
+/* Message text styling */
+.text {
+  font-size: 12px; /* Smaller message text */
+  margin-top: 4px;
+  color: #333;
+}
+
+/* Date styling */
+.message-date {
+  font-size: 8px; /* Smaller date */
+  color: #777;
+  text-align: right;
+}
+
+/* My message styling */
+.my-message {
+  justify-content: flex-end;
+}
+
+/* New message form styling */
+.new-message-form {
+  display: flex;
+  width: 100%;
+  padding: 8px;
+  background-color: #f0f0f0;
+}
+
+/* New message input styling */
+.new-message-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 12px; /* Smaller input font size */
+  color: #333;
+  padding: 6px;
+  border-radius: 5px 0 0 5px;
+}
+
+/* Send button styling */
+.send-button {
+  border: none;
+  outline: none;
+  background: #3b5998;
+  color: #fff;
+  font-size: 12px; /* Smaller button font size */
+  font-weight: bold;
+  border-radius: 0 5px 5px 0;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.send-button:hover {
+  background-color: #2d4373;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .message {
+    padding: 6px;
+  }
+  
+  .new-message-input {
+    font-size: 10px;
+    padding: 4px;
+  }
+
+  .send-button {
+    font-size: 10px;
+    padding: 4px 8px;
+  }
+}
